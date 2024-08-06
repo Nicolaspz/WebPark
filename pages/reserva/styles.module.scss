@@ -1,0 +1,67 @@
+.container {
+  padding: 20px;
+}
+
+.containerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.listReservas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reservaItem {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.reservaItem:hover {
+  transform: translateY(-5px);
+}
+
+.reservaDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.reservaDetails span {
+  font-size: 14px;
+  color: #333;
+}
+
+.reservaDetails span strong {
+  color: #555;
+}
+
+.emptyList {
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttonRefresh {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #3fffa3;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.buttonRefresh:hover {
+  background: #36e392;
+}
